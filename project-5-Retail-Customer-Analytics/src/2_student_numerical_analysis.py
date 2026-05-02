@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from analytics import Client
 
-#task 1
+#task 1#
 #ЗАГРУЗКА ДАННЫХ
 df = pd.read_csv('retail_customer_loyalty_realistic.csv')
 subset = df.head(20)
