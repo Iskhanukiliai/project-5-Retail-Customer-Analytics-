@@ -4,7 +4,7 @@ from analytics import Client
 
 #task 1#
 #ЗАГРУЗКА ДАННЫХ
-df = pd.read_csv('retail_customer_loyalty_realistic.csv')
+df = pd.read_csv('../data/retail_customer_loyalty_realistic.csv')
 subset = df.head(20)
 clients_list = []
 
